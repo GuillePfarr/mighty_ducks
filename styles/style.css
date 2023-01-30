@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -64,7 +64,6 @@ nav a {
 
 }
 
-
 a[href="#"] {
 
     background-color: green;
@@ -96,8 +95,8 @@ a[href="./index.html"] {
 
 .home img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position:absolute;
+    top: 75px;
     left: 5px;
 }
 
@@ -119,8 +118,8 @@ a[href="./index.html"] {
 
 .about img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 75px;
     left: 5px;
 }
 
@@ -129,6 +128,11 @@ a[href="./index.html"] {
     position: relative;
     top: 30px;
     left: 200px;
+    width: 630px;
+}
+
+.about h3{
+    text-align: left;
 }
 
 .contact {
@@ -142,14 +146,22 @@ a[href="./index.html"] {
 
 .contact img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 50px;
     left: 5px;
 }
 
 .contact aside {
-    display: inline-block;
+    display: inline;
     position: relative;
     top: 30px;
     left: 200px;
 }
+
+.contact h3{
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+  }
