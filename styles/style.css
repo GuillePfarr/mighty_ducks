@@ -46,7 +46,7 @@ p {
 nav {
     position: absolute;
     top: 40px;
-    right: 1px;
+    
     background-color: transparent;
 }
 
@@ -56,7 +56,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     height: 40px;
-    width: 120px;
+    width: 160px;
     border: 2px solid black;
     text-align: center;
     box-shadow: 5px 5px rgb(240, 245, 245);
@@ -80,6 +80,16 @@ a[href="./contact.html"] {
 }
 
 a[href="./index.html"] {
+
+    background-color: blue;
+}
+
+a[href="./game_info.html"] {
+
+    background-color: blue;
+}
+
+a[href="./rules.html"] {
 
     background-color: blue;
 }
