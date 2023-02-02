@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 nav {
     position: absolute;
     top: 40px;
-    right: 1px;
+    
     background-color: transparent;
 }
 
@@ -56,14 +56,13 @@ nav a {
     text-decoration: none;
     display: inline-block;
     height: 40px;
-    width: 120px;
+    width: 160px;
     border: 2px solid black;
     text-align: center;
     box-shadow: 5px 5px rgb(240, 245, 245);
     padding-top: 7px;
 
 }
-
 
 a[href="#"] {
 
@@ -85,6 +84,16 @@ a[href="./index.html"] {
     background-color: blue;
 }
 
+a[href="./game_info.html"] {
+
+    background-color: blue;
+}
+
+a[href="./rules.html"] {
+
+    background-color: blue;
+}
+
 .home {
     width: 1000px;
     height: 500px;
@@ -96,8 +105,8 @@ a[href="./index.html"] {
 
 .home img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position:absolute;
+    top: 75px;
     left: 5px;
 }
 
@@ -119,8 +128,8 @@ a[href="./index.html"] {
 
 .about img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 75px;
     left: 5px;
 }
 
@@ -129,6 +138,11 @@ a[href="./index.html"] {
     position: relative;
     top: 30px;
     left: 200px;
+    width: 630px;
+}
+
+.about h3{
+    text-align: left;
 }
 
 .contact {
@@ -142,14 +156,22 @@ a[href="./index.html"] {
 
 .contact img {
     display: inline;
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 50px;
     left: 5px;
 }
 
 .contact aside {
-    display: inline-block;
+    display: inline;
     position: relative;
     top: 30px;
     left: 200px;
 }
+
+.contact h3{
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+  }
